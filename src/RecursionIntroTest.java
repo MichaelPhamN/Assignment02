@@ -8,7 +8,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
 /**
- * Test of CS 143 Assignment 2 by Martin Hock (Version of 12:30 AM 4/19/2017)
+ * Test of CS 143 Assignment 2 by Martin Hock (Version of 1:30 PM 4/20/2017)
  * 
  * You may only use this program as a student of Martin Hock, CS 143 Spring 2017.
  */
@@ -119,7 +119,7 @@ public class RecursionIntroTest {
 					System.setOut(out);
 					String expected = "13 15\n15 18\n16 21\n20 24\n";
 					if (!Arrays.equals(expected.split("\\r?\\n"), ba.toString().split("\\r?\\n"))) {
-						System.out.println("For sparsetablegen(10, 15), expected:\n" + expected + "\n, got: \n" + ba);
+						System.out.println("For sparsetablegen(13, 20), expected:\n" + expected + "\n, got: \n" + ba);
 					} else {
 						stgscore += 10;
 					}
